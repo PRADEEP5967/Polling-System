@@ -218,5 +218,25 @@ The WebSocket connection provides real-time updates for poll results and leaderb
    }
    ```
 
-## Contributing
+Here's a short note summarizing your assignment submission:  
+
+---  
+
+## ** High-Concurrency Polling System**  
+
+I have developed a backend system for a high-concurrency polling feature using **Kafka, Zookeeper, Node.js, Express.js, PostgreSQL, and WebSockets**. The system ensures real-time poll updates, fault tolerance, and resilience against failures.  
+
+### **Key Features:**  
+✅ **Poll Creation:** Users can create polls with multiple options, stored in PostgreSQL.  
+✅ **Poll Participation:** Votes are processed via Kafka producers and consumers, ensuring no vote loss.  
+✅ **Real-Time Updates:** WebSockets push live poll updates to connected users.  
+✅ **Leaderboard:** A global leaderboard ranks top poll options dynamically.  
+✅ **Concurrency & Fault Tolerance:** Kafka with partitions and Zookeeper ensures high availability and failure recovery.  
+
+The system is designed for **scalability and reliability**, with optional **Docker setup** for easy deployment. Kafka partitions handle concurrent voting efficiently, while Zookeeper manages broker failures.  
+ 
+
+---  
+
+Let me know if you need any changes! 🚀
 
